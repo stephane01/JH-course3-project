@@ -17,7 +17,7 @@ The script goes through several steps, which are described here and in comments 
 3. we do a 1st cleaning of this initial set by
   - adding the names
   - adding a column with the subject who has generated the observation
-4. we merge the tarin and test data sets in a single data set (called MergedData)
+4. we merge the train and test data sets in a single data set (called MergedData)
 5. we look for columns which represent means or std (using a word search function from the stringr package), and we subset the dataset with only these values
-6. we clculate the mean per subject for each column (using the plyr package)
+6. we calculate the mean per subject for each column (using the plyr package)
 7. we generate the output files
